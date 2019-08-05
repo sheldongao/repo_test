@@ -2,7 +2,7 @@
 <manifest>
 <remote  name="origin"
 fetch=".."
-review="https://android-review.googlesource.com/" />
+review="" />
 <default revision="master"
 remote="origin"
 sync-j="4" />
