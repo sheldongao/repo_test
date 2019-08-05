@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="aosp"
+<remote  name="origin"
 fetch=".."
 review="https://android-review.googlesource.com/" />
 <default revision="master"
-remote="aosp"
+remote="origin"
 sync-j="4" />
-<project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-<project path="art" name="platform/art" groups="pdk" />
-<project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
-<project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+<project path="jenkins2_test" name="sheldongao/jenkins2_test" groups="pdk" />
+<project path="books" name="sheldongao/books" groups="pdk" />
 </manifest>
